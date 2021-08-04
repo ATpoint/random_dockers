@@ -1,0 +1,13 @@
+name: peak_calling
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bedtools=2.30.0
+  - genrich=0.6.1
+  - idr=2.0.4.2
+  - macs2=2.2.7.1
+  - parallel
+  - samtools=1.13
+  - subread=2.0.1
