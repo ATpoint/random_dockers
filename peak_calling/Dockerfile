@@ -7,5 +7,6 @@ RUN apt update && \
     apt-get clean
 
 RUN mamba env update --name base --file environment.yml
+RUN parallel --citation #/ silence that annoying message it prints all the time
 
 CMD echo "This is the peak_calling image with versions:" $(mamba --version | tr "\n" "\ ")
