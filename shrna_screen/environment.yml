@@ -1,0 +1,11 @@
+name: peak_calling
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bowtie2=2.4.4
+  - multiqc=1.11
+  - parallel
+  - samtools=1.13
+  - subread=2.0.1
