@@ -14,7 +14,7 @@ docker push atpoint/repo_at_dockerhub:tag
 
 ## Micromamba
 
-There is now also a [micromamba](https://github.com/mamba-org/micromamba-docker) base image that is much smaller than the condaforge/mambaforge image (about 95Mb rather about 415Mb). A Dockerfile for micromamba could be:
+There is now also a [micromamba](https://github.com/mamba-org/micromamba-docker) base image that is much smaller than the condaforge/mambaforge image (about 95Mb rather than ~ 415Mb). A Dockerfile for micromamba could look like:
 
 ```bash
 
